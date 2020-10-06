@@ -8,7 +8,6 @@ var workers = require("./lib/workers");
 var cli = require("./lib/cli");
 //Declare the app
 var app = {};
-
 app.init = (callback) => {
   //Start the server
   server.init();
